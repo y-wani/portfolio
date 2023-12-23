@@ -1,28 +1,28 @@
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Box, Boxes, BoxNum, BoxText, Join, JoinText, IconContainer } from './AcomplishmentsStyles';
 
-const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
-
-const Acomplishments = () => (
+const ClosingRemarks = () => (
   <Section>
-    <SectionTitle>Personal Achievements</SectionTitle>
+    <SectionTitle>Closing Remarks</SectionTitle>
     <Boxes>
-      {data.map((card, index) => (
-        <Box key={index}>
-          <BoxNum>{`${card.number}+`}</BoxNum>
-          <BoxText>{card.text}</BoxText>
-        </Box>
-      ))}
+      <Box>
+        <BoxText>
+          Thank you for visiting my portfolio and taking the time to explore my journey and projects. If you have any questions, opportunities, or just want to connect, feel free to reach out. I look forward to future collaborations and learning experiences.
+        </BoxText>
+      </Box>
     </Boxes>
-    <SectionDivider/>
+    <SectionDivider />
+    <Join>
+      <JoinText>
+        Interested in collaborating or discussing a project?
+      </JoinText>
+      <IconContainer>
+        {/* Add your contact icons or buttons here */}
+      </IconContainer>
+    </Join>
   </Section>
 );
 
-export default Acomplishments;
+export default ClosingRemarks;
