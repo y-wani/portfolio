@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Unite App',
     description: 'Created an app to assist people nationwide in finding essential resources.',
-    image: '/images/Well2.jpg',
+    
     tags: ['React-Native', 'SQL'],
     source: 'https://github.com/yourusername/uniteapp',
     visit: 'https://uniteapp.yourwebsite.com',
