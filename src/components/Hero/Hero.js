@@ -8,7 +8,7 @@ const Hero = (props) => {
   // Function to handle the resume button click
   const handleResumeClick = () => {
     // Replace 'YOUR_GOOGLE_DRIVE_LINK' with the actual link to your resume
-    const resumeLink = 'https://drive.google.com/file/d/1EUD6UXoy0uhPhZB65vREPIpOKa_ZNbZT/view?usp=sharing';
+    const resumeLink = 'https://drive.google.com/file/d/1cwwWnFFVSzWEPijGasJXC9_6Q6MFGor4/view?usp=sharing';
     window.open(resumeLink, '_blank');
   };
 
